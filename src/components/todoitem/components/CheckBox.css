@@ -1,0 +1,17 @@
+.CheckBox {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+.CheckBox-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1em;
+  margin-right: 1em;
+  border: 2px solid white;
+  border-color: #9e9e9e;
+  width: 1.5em;
+  height: 1.5em;
+}

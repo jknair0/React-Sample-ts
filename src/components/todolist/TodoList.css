@@ -1,0 +1,42 @@
+.TodoList {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0.2em;
+  max-width: 900px;
+}
+
+.TodoList-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+}
+
+.TodoList-form input {
+  flex: 1;
+}
+
+.TodoList-form button {
+  margin-bottom: 0.4em;
+  width: 100%;
+  margin-top: 0.2em;
+}
+
+@media only screen and (min-width: 600px) {
+  .TodoList {
+    width: 70%;
+  }
+
+  .TodoList-form {
+    flex-direction: row;
+  }
+
+  .TodoList-form button {
+    width: auto;
+    margin-bottom: 0em;
+    height: 100%;
+    margin-left: 0.2em;
+  }
+}

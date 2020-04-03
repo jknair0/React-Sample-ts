@@ -1,0 +1,15 @@
+.Todo {
+  background-color: white;
+  display: flex;
+  border-radius: 0.1em;
+  margin-bottom: 0.2em;
+  align-items: center;
+}
+
+.Todo span {
+  flex: 1;
+}
+
+.Todo-close {
+  padding: 0.5em;
+}

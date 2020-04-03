@@ -1,0 +1,15 @@
+#header {
+  background-color: #6200ea;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-height: 4em;
+}
+
+.headerTitle {
+  color: #7c4dff;
+  font-weight: 500;
+  text-transform: capitalize;
+  padding: 0;
+}
